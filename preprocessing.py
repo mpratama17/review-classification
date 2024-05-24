@@ -3,6 +3,7 @@ import re
 import string
 # stopwords
 from nltk.corpus import stopwords
+stopwords.words('english')
 # lemmatizer
 from nltk.stem import WordNetLemmatizer
 # from nltk.corpus import stopwords
