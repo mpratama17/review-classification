@@ -3,6 +3,7 @@ import re
 import string
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
+from nltk.corpus import wordnet
 
 def clean_text(text):
     # lower
