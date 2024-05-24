@@ -1,14 +1,8 @@
 
 import re
 import string
-# stopwords
 from nltk.corpus import stopwords
-import nltk as nltk
-nltk.download('stopwords')
-# lemmatizer
 from nltk.stem import WordNetLemmatizer
-# from nltk.corpus import stopwords
-# from nltk.stem import WordNetLemmatizer
 
 def clean_text(text):
     # lower
