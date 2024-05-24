@@ -12,6 +12,6 @@ if st.button("Predict"):
     # st.write("TFIDF: ", tfidf_review)
     st.write("TFIDF per word: ", tfidf_per_word)
 
-# load dataset csv
-df = pd.read_csv('dataset/Dataset User Review OTA decode.csv')
-st.dataframe(df)
+# # load dataset csv
+# df = pd.read_csv('dataset/Dataset User Review OTA decode.csv')
+# st.dataframe(df)
