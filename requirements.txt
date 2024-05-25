@@ -4,3 +4,5 @@ streamlit
 scikit-learn
 pip
 nltk
+wordcloud
+Werkzeug
