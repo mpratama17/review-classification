@@ -19,7 +19,7 @@ def predict(input_text):
     tfidf_review = tfidf_transformer.transform(processed_review)
     tfidf_review_reshaped = np.array(tfidf_review).reshape(1, -1) # 
     prediction = model.predict(tfidf_review_reshaped)
-    label = 'Satisfied' if prediction[0] == 1 else 'unhappy'
+    label = 'Satisfied' if prediction[0] == 1 else 'Unhappy'
     tfidf_per_word = getTFIDF(tfidf_transformer.word_list, tfidf_review, processed_review.split())
 
     return label, processed_review, tfidf_per_word

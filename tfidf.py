@@ -115,33 +115,33 @@ class TFIDF:
     
 
 
-if __name__ == "__main__":
-    dataset = ["hello hello down there", 
-            "hello up there", 
-            "hello down there asd apa iya ahha", 
-            "hello up there",
-            "apa kabar",
-            "apa kabar",
-            "apa kabar",
-            "apa kabar",
-            ]
-    tfidf = TFIDF(dataset)
+# if __name__ == "__main__":
+#     dataset = ["hello hello down there", 
+#             "hello up there", 
+#             "hello down there asd apa iya ahha", 
+#             "hello up there",
+#             "apa kabar",
+#             "apa kabar",
+#             "apa kabar",
+#             "apa kabar",
+#             ]
+#     tfidf = TFIDF(dataset)
     # get topWord from all from dataset
 
 
     # topWord = tfidf.getTopWord(tfidf.transform_batch(dataset[0]))
     # print(topWord)
 
-    top_words = tfidf.getTopWordFromAll()
-    print("\nTop 5 words based on average TF-IDF score in the dataset:")
-    for i, word_info in enumerate(top_words):
-        print(f"{i+1}. Word: {word_info['Kata']}, Average Score: {word_info['Score']}")
-    # print("Ini word list", tfidf.word_list)
-    print("Ini word count list", tfidf.word_count_list)
+    # top_words = tfidf.getTopWordFromAll()
+    # print("\nTop 5 words based on average TF-IDF score in the dataset:")
+    # for i, word_info in enumerate(top_words):
+    #     print(f"{i+1}. Word: {word_info['Kata']}, Average Score: {word_info['Score']}")
+    # # print("Ini word list", tfidf.word_list)
+    # print("Ini word count list", tfidf.word_count_list)
 
-    zero_tfidf_words = tfidf.getZeroTfidfWord()
-    print("\nWords with 0 TF-IDF score:")
-    print(zero_tfidf_words)
+    # zero_tfidf_words = tfidf.getZeroTfidfWord()
+    # print("\nWords with 0 TF-IDF score:")
+    # print(zero_tfidf_words)
     # print("Panjang dari word list", len(tfidf.word_list))
     # # tr = tfidf.transform("hello up there")
     # res = tfidf.getTopWord(tfidf.transform("hello up there"))
