@@ -3,3 +3,6 @@ pandas
 streamlit
 scikit-learn
 pip
+util
+nltk
+preprocessing
