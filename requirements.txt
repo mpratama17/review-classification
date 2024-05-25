@@ -2,5 +2,5 @@ numpy
 pandas
 streamlit
 scikit-learn
-pip=23.3.1
+pip
 nltk==3.8.1
