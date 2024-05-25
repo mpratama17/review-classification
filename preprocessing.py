@@ -4,7 +4,7 @@ import string
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 from nltk.corpus import wordnet
-import nltk
+import nltk as nltk
 nltk.download('stopwords')
 
 def clean_text(text):
@@ -53,10 +53,10 @@ def preprocess(text):
 
 
 
-# if __name__ == '__main__':
-#     text = 'I am so riding :) https://www.google.com'    
-#     print(type(text)) # <class 'str'>
-#     print(clean_text(text)) # i am so happy
-#     print(remove_stopword(text)) # i happy
-#     print(lemmatize(text)) # I am so happy
-#     print(preprocess(text)) # i happy
+if __name__ == '__main__':
+    text = 'I am so riding :) https://www.google.com'    
+    print(type(text)) # <class 'str'>
+    print(clean_text(text)) # i am so happy
+    print(remove_stopword(text)) # i happy
+    print(lemmatize(text)) # I am so happy
+    print(preprocess(text)) # i happy
