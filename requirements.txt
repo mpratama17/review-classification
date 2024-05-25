@@ -4,3 +4,4 @@ streamlit
 scikit-learn
 pip
 nltk==3.8.1
+pickle

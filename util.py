@@ -4,6 +4,7 @@ import numpy as np
 from multinomial import MultinomialNB
 from preprocessing import preprocess
 import pandas as pd
+import nltk
 
 # Load the trained model and TFIDF vectorizer
 with open('pickle/model_91_new.pkl', 'rb') as model_file:
