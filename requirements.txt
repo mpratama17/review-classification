@@ -2,7 +2,5 @@ numpy
 pandas
 streamlit
 scikit-learn
-pip
-util
-nltk
-preprocessing
+pip=23.3.1
+nltk==3.8.1
