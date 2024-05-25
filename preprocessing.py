@@ -6,6 +6,7 @@ from nltk.stem import WordNetLemmatizer
 from nltk.corpus import wordnet
 import nltk as nltk
 nltk.download('stopwords')
+nltk.download('wordnet')
 
 def clean_text(text):
     # lower
