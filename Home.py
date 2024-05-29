@@ -11,6 +11,15 @@ multi = """
     """
 st.write(multi)
 
+# text_input = st.text_input("Input Review 👇", placeholder='Input review text here...', )
+# if st.button("Predict"):
+#     with st.container(border=True):
+#         prediction, preprocessed_text, tfidf_per_word = predict(text_input)
+#         st.write("Prediction: ", prediction)
+#         st.write("Preprocessed Text: ", preprocessed_text)
+#         # st.write("TFIDF: ", tfidf_review)
+#         st.write("TFIDF per word: ", tfidf_per_word)
+
 text_input = st.text_input("Input Review 👇", placeholder='Input review text here...', )
 if st.button("Predict"):
     with st.container(border=True):
@@ -18,8 +27,7 @@ if st.button("Predict"):
         st.write("Prediction: ", prediction)
         st.write("Preprocessed Text: ", preprocessed_text)
         # st.write("TFIDF: ", tfidf_review)
-        st.write("TFIDF per word: ", tfidf_per_word)
-
+        # st.write("TFIDF per word: ", tfidf_per_word)
 
 
 
